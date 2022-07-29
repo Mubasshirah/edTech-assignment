@@ -241,7 +241,8 @@
       <div class="container px-4 text-center ">
         <div class="row ">
           <div class="col">
-            <div class="p-5 border bg-info d-flex align-items-center justify-content-between text-start rounded-3">
+            <div class="p-5 border bg-info d-flex flex-column d-sm-flex flex-sm-column align-items-sm-center  align-items-center d-md-flex flex-md-row align-items-md-center justify-content-md-between d-lg-flex flex-lg-row align-items-lg-center justify-content-lg-between text-md-start text-lg-start text-sm-center  text-sm-center rounded-3">
+            
               <div>
                 <h3 class="fs-1 fw-bold text-white">Ready to join?</h3>
                 <p class="fs-6  text-white">Feel free to register. Only few steps to get all our facilities.</p>
@@ -250,30 +251,34 @@
 
                 <!-- modal here -->
 
-                
-                <!-- Button trigger modal -->
-<button type="button" class="btn btn-light text-info fw-bold" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-  Register Now
-</button>
 
-<!-- Modal -->
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title fw-bold text-dark fs-4" id="staticBackdropLabel">For Registration Purpose</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body text-dark fs-5">
-        You need to share your social media link with us. Though it is not obligatory, it will be quite easier for us to understand your interests. 
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-info text-white">Understood</button>
-      </div>
-    </div>
-  </div>
-</div>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-light text-info fw-bold" data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop">
+                  Register Now
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title fw-bold text-dark fs-4" id="staticBackdropLabel">For Registration Purpose
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body text-dark fs-5">
+                        You need to share your social media link with us. Though it is not obligatory, it will be quite
+                        easier for us to understand your interests.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-info text-white">Understood</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
               </div>
             </div>
@@ -288,7 +293,87 @@
     <!-- students feedback part starts -->
     <!-- students feedback part ends -->
     <!-- FAQ part starts -->
+    <section class="container my-5 ">
+     <h2 class="fs-1 fw-bold text-dark text-center">Frequently Asked Questions</h2>
+     <p class="fs-5 text-dark text-center">Here are all the answers that you need to know regarding our services.</p>
+     <div class="accordion  w-75 accordion-margin" id="accordionExample">
+      <div class="accordion-item mb-3  ">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            What are the difference between  flexbox and grid?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+           <p>The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time.May 20, 2022</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item border-top mb-3">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button fw-bold text-dark collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            What are the difference between bootstrap and tailwind?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+           <p>
+            Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit. Tailwind CSS uses a set of utility classes to create a neat UI with more flexibility and uniqueness. 
+           </p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item border-top mb-3">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button  fw-bold text-dark collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            What is css box model?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+           <p>
+            
 
+The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.
+<br> 
+Explanation of the different parts:
+<br>
+
+Content - The content of the box, where text and images appear
+<br>
+Padding - Clears an area around the content. The padding is transparent
+<br>
+Border - A border that goes around the padding and content
+<br>
+Margin - Clears an area outside the border. The margin is transparent
+<br>
+The box model allows us to add a border around elements, and to define space between elements. 
+           </p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item border-top  ">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            What is a symantic tag?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+           <p>
+            A semantic element clearly describes its meaning to both the browser and the developer.
+            <br>
+
+Examples of non-semantic elements: div and span - Tells nothing about its content.
+  <br>
+
+Examples of semantic elements: form, table, and article - Clearly defines its content.
+           </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
     <!-- FAQ part ends -->
   </main>
   <!-- main part ends -->
